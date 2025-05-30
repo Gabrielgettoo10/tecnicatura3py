@@ -3,3 +3,68 @@
 04:22:38 AM:WARNING [logger_base.py:18] Mensaje a nivel warning
 04:22:38 AM:ERROR [logger_base.py:19] Mensaje a nivel error
 04:22:38 AM:CRITICAL [logger_base.py:20] Mensaje a nivel critical
+06:33:11 PM:DEBUG [Persona.py:52] 
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+        
+06:39:11 PM:DEBUG [Persona.py:52] 
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+        
+06:39:11 PM:DEBUG [Persona.py:54] 
+            Id Persona: Jose, 
+            Nombre: Lepez, 
+            Apellido: ljose@mail.com, 
+            Email: None
+        
+06:40:29 PM:DEBUG [Persona.py:52] 
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+        
+06:40:29 PM:DEBUG [Persona.py:54] 
+            Id Persona: None, 
+            Nombre: Jose, 
+            Apellido: Lepez, 
+            Email: ljose@mail.com
+        
+06:43:08 PM:DEBUG [Persona.py:52] 
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+        
+06:43:08 PM:DEBUG [Persona.py:54] 
+            Id Persona: None, 
+            Nombre: Jose, 
+            Apellido: Lepez, 
+            Email: ljose@mail.com
+        
+06:44:09 PM:DEBUG [Persona.py:52] 
+            Id Persona: 1, 
+            Nombre: Juan, 
+            Apellido: Perez, 
+            Email: jperez@gmail.com
+        
+06:44:09 PM:DEBUG [Persona.py:54] 
+            Id Persona: None, 
+            Nombre: Jose, 
+            Apellido: Lepez, 
+            Email: ljose@mail.com
+        
+06:44:09 PM:DEBUG [Persona.py:56] 
+            Id Persona: 1, 
+            Nombre: None, 
+            Apellido: None, 
+            Email: None
+        
+12:40:09 AM:DEBUG [conexion.py:25] Conexión Exitosa <connection object at 0x00000293E4DE29B0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:43:53 AM:DEBUG [conexion.py:25] Conexión Exitosa <connection object at 0x000001972A5B29B0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:43:53 AM:ERROR [conexion.py:42] Ocurrió un error: 'NoneType' object has no attribute 'cursor'
+12:46:36 AM:DEBUG [conexion.py:25] Conexión Exitosa <connection object at 0x0000023B9E4429B0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:46:36 AM:DEBUG [conexion.py:39] Se abrió correctamente el cursor: <cursor object at 0x0000023BA05A3760; closed: 0>
